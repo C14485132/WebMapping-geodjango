@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',
-    'world',
+    'app',
     'rest_framework',
 ]
 
@@ -79,11 +79,10 @@ WSGI_APPLICATION = 'geodjango.wsgi.application'
 DATABASES = {
     'default': {
          'ENGINE': 'django.contrib.gis.db.backends.postgis',
-         'NAME': 'webmapping',
-         'USER': 'WebMapping',
-         'PASSWORD': 'c14485132wm',
-         'HOST': 'c14485132wm.csv5uappvvpk.eu-west-1.rds.amazonaws.com',
-
+         'NAME': 'c14485132web',
+         'USER': 'c14485132web',
+         'PASSWORD': 'webmapping',
+         'HOST': 'c14485132web.csv5uappvvpk.eu-west-1.rds.amazonaws.com',
     },
 }
 
